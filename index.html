@@ -1,86 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Squid Game Deluxe Roleplay | Gaming & Discord</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background: #0b0b0b;
-      color: white;
-      text-align: center;
-    }
+<meta charset="UTF-8">
+<title>Squid Game Deluxe Roleplay | Gaming & Discord</title>
+<style>
+  /* ===== Basic Styles ===== */
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0b0b0b, #1a1a1a);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+  }
 
-    header {
-      padding: 60px 20px;
-    }
+  header {
+    padding: 50px 20px;
+  }
 
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-      color: #e50914; /* Squid Game red */
-      font-family: 'Arial Black', sans-serif;
-    }
+  h1 {
+    font-size: 50px;
+    color: #e50914;
+    animation: glow 2s infinite alternate;
+    margin-bottom: 10px;
+    font-family: 'Arial Black', sans-serif;
+  }
 
-    p {
-      font-size: 18px;
-      color: #ccc;
-    }
+  @keyframes glow {
+    from { text-shadow: 0 0 10px #e50914; }
+    to { text-shadow: 0 0 30px #e50914; }
+  }
 
-    .link-btn {
-      display: inline-block;
-      margin: 20px 15px;
-      padding: 15px 30px;
-      background: #1a1a1a;
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      border-radius: 12px;
-      border: 2px solid #e50914;
-      transition: 0.3s;
-      position: relative;
-      overflow: hidden;
-    }
+  p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 40px;
+  }
 
-    .link-btn:hover {
-      color: #0b0b0b;
-      background: #e50914;
-      box-shadow: 0 0 20px #e50914;
-      transform: scale(1.05);
-    }
+  /* ===== Buttons ===== */
+  .link-btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid #e50914;
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(229, 9, 20, 0.5);
+  }
 
-    footer {
-      margin-top: 80px;
-      padding: 20px;
-      font-size: 14px;
-      color: #777;
-      border-top: 1px solid #333;
-    }
+  .link-btn:hover {
+    background: #e50914;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(229, 9, 20, 0.8);
+  }
 
-  </style>
+  /* ===== Features Section ===== */
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 20px;
+    gap: 20px;
+  }
+
+  .feature-box {
+    background: #1a1a1a;
+    border: 2px solid #e50914;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(229, 9, 20, 0.7);
+  }
+
+  .feature-box h3 {
+    margin-top: 0;
+    color: #e50914;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #333;
+  }
+</style>
 </head>
 <body>
 
+  <!-- Header -->
   <header>
     <h1>🟥 Squid Game Deluxe Roleplay 🟩</h1>
     <p>Gaming Community & Discord – Enter the Game</p>
 
-
-    <a class="link-btn" href="https://www.roblox.com/de/games/128944272786430/Squid-game-deluxe-Roleplay-V2-HUGE-UPDATE" target="_blank">
-      ⬛ Play Game
-    </a>
-
-
-    <a class="link-btn" href="https://www.roblox.com/de/communities/198544705/Squid-Game-Deluxe-Roleplay-OFFICIAL#!/about" target="_blank">
-      ◯ Group
-    </a>
-
-
-    <a class="link-btn" href="https://discord.gg/jw4YJkbNtu" target="_blank">
-      △ Discord
-    </a>
+    <!-- Buttons -->
+    <a class="link-btn" href="https://www.roblox.com/de/games/128944272786430/Squid-game-deluxe-Roleplay-V2-HUGE-UPDATE" target="_blank">⬛ Play Game</a>
+    <a class="link-btn" href="https://www.roblox.com/de/communities/198544705/Squid-Game-Deluxe-Roleplay-OFFICIAL#!/about" target="_blank">◯ Group</a>
+    <a class="link-btn" href="https://discord.gg/jw4YJkbNtu target="_blank">△ Discord</a>
   </header>
+
+  <!-- Features Section -->
+  <div class="features">
+    <div class="feature-box">
+      <h3>Immersive Gameplay</h3>
+      <p>Experience Squid Game like never before with realistic roleplay and challenges.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Community Events</h3>
+      <p>Join events, tournaments, and special quests with other players.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Exclusive Rewards</h3>
+      <p>Win unique in-game items and Discord perks.</p>
+    </div>
+  </div>
 
   <footer>
     © 2026 Squid Game Deluxe Roleplay – All Rights Reserved
